@@ -1,0 +1,95 @@
+h1 {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: white;
+    background-color: brown;
+    padding: 5px 25px 5px 25px;
+}
+
+/* ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+} */
+
+nav {
+    background-color: wheat;
+    border-bottom: orangered;
+    border-width: 2px;
+    
+
+}
+
+.navbar-nav {
+    display: flex;
+    margin-left: auto;
+    padding-left: 0;
+    list-style: none;
+    
+}
+
+section {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+
+    a:link {
+        color: maroon;
+
+    }
+
+    a:visited {
+        color: brown;
+    }
+
+    a:hover {
+        color: olivedrab;
+    }
+
+ button {
+     color: black;
+     background-color: orangered;
+ }
+
+ .home {
+    width: 40%;
+    height: auto;
+    position: relative;
+    float: left;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 0px;
+
+ }
+
+.container {
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .texttop {
+    padding-top: 2rem; 
+
+ } */
+
+ .articleBorder {
+     border-width: 1px;
+ }
+
+section {
+    /* box-sizing: border-box; */
+    border-width: 1px;
+    border-color: black;
+}
