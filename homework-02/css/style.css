@@ -71,10 +71,6 @@ section {
 
  }
 
-.container {
-    box-sizing: border-box;
-}
-
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -84,12 +80,21 @@ p {
 
  } */
 
- .articleBorder {
+ /* .articleBorder {
      border-width: 1px;
+     margin-top:  1rem;
+
  }
 
 section {
-    /* box-sizing: border-box; */
-    border-width: 1px;
+    box-sizing: border-box;
     border-color: black;
+    height: 100%;
+
+} */
+
+div.border {
+
+    border: 2px;    
 }
+
